@@ -8,7 +8,18 @@ Dependencies:
 Apple music file needs to be exported as .xml file. Spotfity needs to be exported as .csv using apps like _Soundiiz_ and _Tune My Music_.
 
 
-Ways to improve (might do but not promised):
+### Steps needed to run:
+- create python virtual env (optional):
+`` python -m venv playlist_compare ``
+`` source playlist_compare/bin/activate ``
+`` source playlist_compare/bin/activate ``
+- install dependencies:
+`` pip install pandas plistlib ``
+- run script:
+`` python3 compare_playlists.py <spotify_playlist_filepath.csv> <apple_playlist_filepath.xml> ``
+
+
+### Ways to improve (might do but not promised):
 - Support for more file types
 - Songs similarity ratio
 - Direct API connection
