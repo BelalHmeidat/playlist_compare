@@ -1,4 +1,5 @@
-## Dumb Apple Music - Spotify playlist comparer script. Idea is to find songs unique to each platform and not ending up with tons of duplicates as is the case using apps like _Soundiiz_ to do so.
+## Dumb Apple Music - Spotify playlist comparer script. 
+Idea is to find songs unique to each platform and not ending up with tons of duplicates as is the case using apps like _Soundiiz_ to do so.
 
 Dependencies:
 - pandas
