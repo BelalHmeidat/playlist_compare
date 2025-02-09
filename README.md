@@ -12,7 +12,6 @@ Apple music file needs to be exported as .xml file. Spotfity needs to be exporte
 - create python virtual env (optional): <br>
 `` python -m venv playlist_compare `` <br>
 `` source playlist_compare/bin/activate `` <br>
-`` source playlist_compare/bin/activate ``
 - install dependencies:
 `` pip install pandas plistlib ``
 - run script:
