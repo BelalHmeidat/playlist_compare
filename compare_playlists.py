@@ -180,8 +180,5 @@ else:
 
 
 find_and_delete_duplicates(spotify_df, apple_music_df)
-# print(spotify_df[['Track name']])
-# print('---')
-# print(apple_music_df[['Name']])
 
 shared = check_shared(spotify_df, apple_music_df)

@@ -5,8 +5,9 @@ Dependencies:
 - pandas
 - plistlib
 
-Apple music file needs to be exported as .xml file. Spotfity needs to be exported as .csv using apps like _Soundiiz_ and _Tune My Music_.
-
+### Notes:
+- Apple music file needs to be exported as .xml file. Spotfity needs to be exported as .csv using apps like _Soundiiz_ and _Tune My Music_.
+- Apparently Apple playlist exports (.xml) are different from Apple whole library; therefore, playlist work just fine but not whole library.
 
 ### Steps needed to run:
 - create python virtual env (optional): <br>
@@ -17,7 +18,6 @@ Apple music file needs to be exported as .xml file. Spotfity needs to be exporte
 `` pip install pandas plistlib ``
 - run script:
 `` python3 compare_playlists.py <spotify_playlist_filepath.csv> <apple_playlist_filepath.xml> ``
-
 
 ### Ways to improve (might do but not promised):
 - Support for more file types
