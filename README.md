@@ -15,3 +15,4 @@ Ways to improve (might do but not promised):
 - Binary packages
 - Automatically adding new songs to account
 
+<img width="458" alt="Screenshot 2025-02-09 at 5 57 07 PM" src="https://github.com/user-attachments/assets/97c6024f-c443-48a7-b83e-eab2d1fee8a4" />
